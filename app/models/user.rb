@@ -1,5 +1,7 @@
 class User < ApplicationRecord
+  #1 user co nhieu post, khi user bi xoa -> post bi xoa theo
   has_many :posts, dependent: :destroy
+  has_many :likes
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
