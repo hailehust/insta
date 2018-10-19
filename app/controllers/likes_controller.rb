@@ -1,7 +1,6 @@
 class LikesController < ApplicationController
   before_action :authenticate_user!
 
-  #create a new like object
   def create
     @like = current_user.likes.build(like_params)
     @post = @like.post
@@ -22,12 +21,8 @@ class LikesController < ApplicationController
     end
   end
 
-  
   private
-
   def like_params
     params.permit :post_id
   end
-
-
 end

@@ -52,7 +52,7 @@ body {
 }
 
 .nav-item:not(:first-child) {
-  margin-left: 30px;
+  margin-left: 30px
 }
 
 .box {
@@ -68,6 +68,7 @@ body {
   height: 51px;
   width: 175px;
 }
+
 // Landing
 .landing-left {
   .dummy-phone {
@@ -152,7 +153,7 @@ footer .nav-item {
 
   .carousel-item:not(.active) {
     position: absolute;
-    top: 0;
+    top: 0px;
   }
 }
 
@@ -197,7 +198,6 @@ footer .nav-item {
   width: 24px;
   border: none;
 }
-
 .setting:hover {
   cursor: pointer;
 }
@@ -255,6 +255,7 @@ footer .nav-item {
   border-radius: 50%;
   margin-right: 10px;
 }
+
 // Customize upload photos form
 .upload-photos-icon:hover {
   cursor: pointer;
@@ -265,7 +266,7 @@ footer .nav-item {
 }
 
 .dz-image {
-  border-radius: 0 !important;
+  border-radius: 0px !important;
 
   img {
     width: 100%;
@@ -309,6 +310,7 @@ footer .nav-item {
 .normal-color {
   color: #262626;
 }
+
 // Customize post views
 .post {
   .card-header {
@@ -316,7 +318,7 @@ footer .nav-item {
   }
 
   .card-body {
-    padding: 5px 16px;
+    padding: 5px 16px 5px;
   }
 
   .actions {
@@ -341,7 +343,7 @@ footer .nav-item {
   }
 
   .next-btn {
-    background-position: -353px 0;
+    background-position: -353px 0px;
     height: 30px;
     opacity: 1;
     width: 30px;
@@ -356,7 +358,7 @@ footer .nav-item {
 
 .loved {
   @extend .love;
-  background-position: -182px -336px;
+  background-position: -200px -330px;
 }
 
 .comment {
@@ -370,18 +372,17 @@ footer .nav-item {
   background-position: -150px -353px;
 }
 
-.comment-list{
+.comment-list {
   height: 310px;
   overflow: auto;
 }
 
-.post-show-img{
-  border-color: #fafafa;
+.post-show-img {
+  background-color: #fafafa;
   margin: -10px 0;
 }
 
-
-.delete-post-icon{
+.delete-post-icon {
   color: #262626;
   font-size: 20px;
 }
