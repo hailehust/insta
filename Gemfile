@@ -64,7 +64,6 @@ gem 'cloudinary'
 gem 'figaro'
 gem 'dropzonejs-rails'
 gem 'will_paginate-bootstrap4'
-<<<<<<< HEAD
 
 group :production do
   gem "pg",             "~> 0.18"
